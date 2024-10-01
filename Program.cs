@@ -16,6 +16,8 @@ class Program
         one.CheckIfNumberIsPositiveOrNegative(numberToCheck);
 
         two.GuessNumber();
+        
+        two.Fibonacci(5);
         // validate some methods
         void ValidateRecursiveFactorial()
         {
