@@ -9,7 +9,8 @@ class Program
         Challenge_three three = new Challenge_three();
 
         one.PrintNumbers(1, 10);
-        
+        string[] words = { "Hello", "World", "How are you" };
+        one.PrintStrings(words);
         // validate some methods
         void ValidateRecursiveFactorial()
         {
