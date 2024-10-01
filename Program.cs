@@ -8,7 +8,8 @@ class Program
         Challenge_two two = new Challenge_two();
         Challenge_three three = new Challenge_three();
 
-
+        one.PrintNumbers(1, 10);
+        
         // validate some methods
         void ValidateRecursiveFactorial()
         {
