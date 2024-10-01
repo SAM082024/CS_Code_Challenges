@@ -11,6 +11,9 @@ class Program
         one.PrintNumbers(1, 10);
         string[] words = { "Hello", "World", "How are you" };
         one.PrintStrings(words);
+
+        int numberToCheck = 1;
+        one.CheckIfNumberIsPositiveOrNegative(numberToCheck);
         // validate some methods
         void ValidateRecursiveFactorial()
         {
