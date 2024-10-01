@@ -14,6 +14,8 @@ class Program
 
         int numberToCheck = 1;
         one.CheckIfNumberIsPositiveOrNegative(numberToCheck);
+
+        two.GuessNumber();
         // validate some methods
         void ValidateRecursiveFactorial()
         {
