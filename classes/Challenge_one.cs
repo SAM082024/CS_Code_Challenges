@@ -12,6 +12,10 @@ public class Challenge_one
     public void PrintStrings(string[] arr)
     {
         /* Todo: Print out each string that is passed to the array as an argument*/
+        foreach (string str in arr)
+        {
+            Console.WriteLine(str);
+        }
     }
 
     public void CheckIfNumberIsPositiveOrNegative(int number)
