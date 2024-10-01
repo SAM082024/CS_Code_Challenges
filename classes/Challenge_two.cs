@@ -32,10 +32,23 @@ public class Challenge_two
     {
         int a = 0, b = 1, c;
         Console.WriteLine($"{a} + {b} + ");
-        // Todo: Write out the Fibonacci sequence, tips: use a for loop.
-        // c = a + b;
-        // a = b;
-        // b = c;
+        if (n >= 1)
+        {
+            Console.WriteLine($"{a}"); // Prints out 0
+        }
+
+        if (n >= 2)
+        {
+            Console.WriteLine($"{b}"); // Prints out 1
+        }
+
+        for (int i = 3; i <= n; i++)
+        {
+            c = a + b; // Showcasing the next number
+            Console.WriteLine($"{c}"); // Prints the next number
+            a = b; // Update B to the last number
+            b = c; // Update A to the new number
+        }
     }
 
     public void CheckIfNumberIsEvenOrOdd(double a, double b)
