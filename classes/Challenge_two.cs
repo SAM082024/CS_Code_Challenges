@@ -53,9 +53,24 @@ public class Challenge_two
 
     public void CheckIfNumberIsEvenOrOdd(double a, double b)
     {
-        // Todo: Check if a number is even or odd
-        // if the number is even, write out "even"
-        // if the number is odd, write out "odd"
-        Console.WriteLine("");
+        int wholeA = (int)a; // Convert double a to int
+        if (wholeA % 2 == 0) // Checks if wholeA is even or odd
+        {
+            Console.WriteLine($"{wholeA} (from{a}) is even.");
+        }
+        else
+        {
+            Console.WriteLine($"{wholeA} (from{a}) is odd.");
+        }
+
+        int wholeB = (int)b;// Convert double b to int
+        if (wholeB % 2 == 0) // Checks if wholeB is even or odd
+        {
+            Console.WriteLine($"{wholeB} (from{b}) is even.");
+        }
+            else
+        {
+            Console.WriteLine($"{wholeB} (from{b}) is odd.");
+        }
     }
 }
