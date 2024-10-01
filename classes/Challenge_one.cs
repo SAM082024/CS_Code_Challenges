@@ -1,6 +1,6 @@
 public class Challenge_one
 {
-    public void PrintNumbers()
+    public void PrintNumbers(int start, int end)
     {
         // Todo: Print out the numbers 1 - 10
     }
