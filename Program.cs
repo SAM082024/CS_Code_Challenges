@@ -18,6 +18,8 @@ class Program
         two.GuessNumber();
         
         two.Fibonacci(5);
+
+        two.CheckIfNumberIsEvenOrOdd(2, 2);
         // validate some methods
         void ValidateRecursiveFactorial()
         {
